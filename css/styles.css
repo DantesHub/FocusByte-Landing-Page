@@ -790,7 +790,10 @@ input[type="checkbox"] {
   display: inline-block;
   margin-right: 0.125rem;
 }
-
+.nav {
+  margin-top: 0;
+  padding-top: 0;
+}
 /*********************/
 /*    04. Header     */
 /*********************/
@@ -2095,4 +2098,5 @@ a:hover.back-to-top {
   }
   /* end of extra pages */
 }
+
 /* end of min-width width 1200px */
