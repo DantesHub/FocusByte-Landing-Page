@@ -934,9 +934,9 @@ input[type="checkbox"] {
 
 .tabs .nav-link.active,
 .tabs .nav-link:hover {
-  border-bottom: 0.1875rem solid #c7b6f5;
+  border-bottom: 0.1875rem solid #000;
   background-color: transparent;
-  color: #c7b6f5;
+  color: #000;
 }
 
 .tabs .nav-link .fas {
