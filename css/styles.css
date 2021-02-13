@@ -50,8 +50,6 @@ html {
   height: 100%;
 }
 
-
-
 body,
 p {
   color: #f1f1f8;
@@ -933,7 +931,22 @@ input[type="checkbox"] {
   text-decoration: none;
   transition: all 0.2s ease;
 }
-
+.apple {
+  width: 16rem;
+  height: 8rem;
+}
+.android {
+  display: flex;
+}
+.androidImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
 .tabs .nav-link.active,
 .tabs .nav-link:hover {
   border-bottom: 0.1875rem solid #000;
@@ -1357,8 +1370,8 @@ input[type="checkbox"] {
 
 .counter #counter .counter-value {
   color: #f1f1f8;
-  font: 700 3.5rem/4.25rem "Montserrat", sans-serif;
-  vertical-align: middle;
+  font: 700 2rem "Montserrat", sans-serif;
+  vertical-align: left;
 }
 
 .counter #counter .counter-info {
@@ -1949,11 +1962,11 @@ a:hover.back-to-top {
   }
   /* end of extra pages */
 }
-  .responsive {
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-    position:relative;
+.responsive {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
 }
 .responsive iframe {
   position: absolute;
@@ -2111,8 +2124,6 @@ a:hover.back-to-top {
     margin-left: 1.75rem;
   }
   /* end of extra pages */
-
 }
-
 
 /* end of min-width width 1200px */
